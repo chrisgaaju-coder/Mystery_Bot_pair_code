@@ -87,7 +87,7 @@ router.get('/', async (req, res) => {
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
-                        await KnightBot.sendMessage(userJid, {
+                        await MysteryBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
 ┌┤✑  Thanks for using Mystery Bot
 │└────────────┈ ⳹        
